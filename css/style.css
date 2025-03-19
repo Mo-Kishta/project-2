@@ -43,6 +43,7 @@ ul {
   }
 }
 /* End Global Rules */
+<<<<<<< HEAD
 /* Start FAQ */
 .faq .container {
   text-align: center;
@@ -64,3 +65,94 @@ ul {
   line-height: 1.8;
 }
 /* End FAQ */
+=======
+/* Start API */
+.API {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #1A1B20;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+/* Start Tables */
+/* Start API DOCS table */
+.API .container {
+  background-color: #292A2F;
+  border-radius: 15px;
+  width: 45%;
+  font-family: "Titillium Web", sans-serif;
+}
+.API .tables h2 {
+  padding: 5px 0 10px 0;
+  font-size: 35px;
+  font-weight: 500;
+}
+.API .tables {
+  margin: 20px 0 50px 0;
+}
+.API .tables table {
+  width: 100%;
+  font-size: 15px;
+}
+.API .tables table,
+.API .tables table tr,
+.API .tables table td {
+  border: 1px solid #dee2e6;
+  border-collapse: collapse;
+}
+.API .tables table tr,
+.API .tables table td {
+  padding: 10px 0 10px 15px;
+}
+/* End API DOCS table */
+/* Start services list table */
+.API .tables .text1 {
+  font-size: 25px;
+  padding: 15px 0;
+}
+/* End services list table */
+/* Start Example response */
+.API .tables h3 {
+  padding: 10px 0
+}
+.API .tables pre {
+  background-color: #111;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+/* Start select part */
+.API .tables select {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 15px 25px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  appearance: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.API .tables select:focus {
+  outline: none;
+}
+.API .tables .select {
+  margin-bottom: 20px;
+}
+/* End select part */
+
+/* Ensd Example response */
+/* End Tables */
+/* Start background image */
+.API img {
+  width: 67%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 93.5%;
+  z-index: -1;
+  opacity: .1;
+}
+/* End background image */
+/* End API */
+>>>>>>> 59800ac1b6fa29df9f9082258e9b1aeb9c14a5e
