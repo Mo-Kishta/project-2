@@ -43,3 +43,24 @@ ul {
   }
 }
 /* End Global Rules */
+/* Start FAQ */
+.faq .container {
+  text-align: center;
+  background-color: #292a2f;
+  color: white;
+  width: 80%;
+  border-radius: 15px;
+  border: none;
+  padding: 15px 30px 15px 30px;
+  font-family: "Rubik", sans-serif;
+}
+.faq .container h4 {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.faq .container p {
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+/* End FAQ */
