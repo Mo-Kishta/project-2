@@ -43,7 +43,7 @@ ul {
   }
 }
 /* End Global Rules */
-<<<<<<< HEAD
+HEAD
 /* Start FAQ */
 .faq .container {
   text-align: center;
@@ -65,7 +65,6 @@ ul {
   line-height: 1.8;
 }
 /* End FAQ */
-=======
 /* Start API */
 .API {
   font-family: 'Titillium Web', sans-serif;
@@ -155,4 +154,4 @@ ul {
 }
 /* End background image */
 /* End API */
->>>>>>> 59800ac1b6fa29df9f9082258e9b1aeb9c14a5e
+ 59800ac1b6fa29df9f9082258e9b1aeb9c14a5e
