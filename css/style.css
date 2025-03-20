@@ -1,5 +1,7 @@
 /* Start Variables */
-
+:root {
+  --background-color: #1A1B20;
+}
 /* End Variables */
 /* Start Global Rules */
 * {
@@ -46,7 +48,7 @@ ul {
 /* Start API */
 .API {
   font-family: 'Titillium Web', sans-serif;
-  background-color: #1A1B20;
+  background-color: var(--background-color);
   color: #FFFFFF;
   display: flex;
   flex-direction: column;
