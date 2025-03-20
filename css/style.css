@@ -290,6 +290,34 @@ header .form a i {
   }
 }
 /* End Landing */
+/* Start Terms */
+.terms {
+  background-color: #1A1B20;
+  margin-top: 25px;
+  padding: 15px;  
+}
+.terms .container {
+  text-align: right;
+  background-color: #292a2f;
+  color: white;
+  width: 80%;
+  border-radius: 15px;
+  border: none;
+  padding: 15px 30px 15px 30px;
+  font-family: "Rubik", sans-serif;  
+}
+.terms .container h4 {
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: underline;
+}
+.terms .container p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+  direction: rtl;
+}
+/* End Terms */
 /* Start FAQ */
 .faq {
   background-color: #1A1B20;
