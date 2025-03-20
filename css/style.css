@@ -293,7 +293,7 @@ header .form a i {
 /* Start FAQ */
 .faq {
   background-color: #1A1B20;
-  margin: -15px 0;
+  margin-top: 25px;
   padding: 15px;
 }
 .faq .container {
