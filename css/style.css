@@ -534,7 +534,23 @@ header .form a i {
 /* start register */
 .register {
   background-color: #181A1E;
+  background-position: center;
   font-family: "Titillium Web", sans-serif;
+  position: relative;
+}
+.register .cover {
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+}
+.register .cover img {
+  opacity: .2;
+  width: 170%;
 }
 .register .container {
   display: flex;
