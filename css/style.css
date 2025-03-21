@@ -1,5 +1,7 @@
 /* Start Variables */
-
+:root {
+  --background-color: #1A1B20;
+}
 /* End Variables */
 /* Start Global Rules */
 * {
@@ -666,7 +668,7 @@ header .form a i {
 /* Start API */
 .API {
   font-family: 'Titillium Web', sans-serif;
-  background-color: #1A1B20;
+  background-color: var(--background-color);
   color: #FFFFFF;
   display: flex;
   flex-direction: column;
@@ -752,3 +754,108 @@ header .form a i {
 }
 /* End background image */
 /* End API */
+/* start register */
+.register {
+  background-color: #181A1E;
+  background-position: center;
+  font-family: "Titillium Web", sans-serif;
+  position: relative;
+}
+.register .cover {
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+}
+.register .cover img {
+  opacity: .2;
+  width: 170%;
+}
+.register .container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+.register .form:nth-child(1),
+.register .image:nth-child(2) {
+  align-self: center;
+}
+.register .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register .image img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 50%;
+}
+.register .form {
+  background: #23262D;
+  background-image: url(../images/pattern.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.register h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.register .input-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+.register .input-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  color: #2E323A;
+  padding-left: 40px;
+}
+.register .input-group i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+.register .terms {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #fff;
+}
+.register .terms input {
+  margin-left: 5px;
+}
+
+.register .terms a {
+  color: #00A6FF;
+  text-decoration: none;
+}
+
+.register .btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #28A745;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 80px;
+}
+/* end register */

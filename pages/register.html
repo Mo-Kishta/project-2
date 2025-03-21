@@ -13,11 +13,59 @@
     <!-- Main Template CSS File -->
     <link rel="stylesheet" href="../css/style.css" />
     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body class="register">
+    <!-- start nav-bar -->
     <iframe src="../components/navbar.html" width="100%" height="100%" frameborder="0"></iframe>
     <!-- end nav-bar -->
-
+     <div class="cover">
+       <img src="../images/world.svg" alt="">
+     </div>
+    <div class="container">
+      <div class="image">
+        <img src="../images/register-circle.png" alt="">
+      </div>
+      <div class="form">
+          <h2>سجل</h2>
+          <form>
+              <div class="input-group">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="اسم">
+              </div>
+              <div class="input-group">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="الكُنية">
+              </div>
+              <div class="input-group">
+                  <i class="fas fa-pen"></i>
+                  <input type="text" placeholder="اسم المستخدم">
+              </div>
+              <div class="input-group">
+                  <i class="fas fa-envelope"></i>
+                  <input type="email" placeholder="البريد الإلكتروني">
+              </div>
+              <div class="input-group">
+                  <i class="fas fa-phone"></i>
+                  <input type="tel" placeholder="رقم الهاتف">
+              </div>
+              <div class="input-group">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" placeholder="كلمة المرور">
+              </div>
+              <div class="input-group">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" placeholder="تكرار كلمة المرور">
+              </div>
+              <div class="terms">
+                  <input type="checkbox"> <span>لقد قرأت <a href="#">اتفاقية العضوية</a> وأنا أقبل</span>
+              </div>
+              <button type="submit" class="btn">سجل</button>
+          </form>
+      </div>
+    </div>
     <!-- start footer -->
      <iframe src="../components/footer.html" width="100%" height="100%" frameborder="0"></iframe>
     <!-- end footer -->
